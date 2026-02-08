@@ -4,5 +4,7 @@
 # Installation (uv)
 
 uv venv
+
 uv pip install -r requirements.txt
+
 uv run python -m uvicorn handler_template.lib.main:app --reload
